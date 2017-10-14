@@ -1,0 +1,109 @@
+<!--
+  Generated template for the Perfil page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar color="orange">
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-buttons end>
+		<button ion-button icon-only (click)="sendMessage()" class="btn_msj" style="background-color: transparent;">
+				<img src="./assets/images/Message.png">    	
+			</button>
+		</ion-buttons>
+		<ion-title>Perfil</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+	<!--photo-->
+	<ion-grid no-padding>
+		<ion-row>
+			<ion-col col-12 text-center class="avatar-section">
+				<div align="center" text-center class="avatar-user">
+					<img src="./assets/images/Shape3.png">
+				</div>
+				<h4>Alvin Caroll</h4>
+				<div text-center class="progress-div"> 
+					<div class="progress-outer">
+						<div class="progress-inner" [style.width]="progress + '%'">
+							<!-- <div class="linea" [style.left]="progress2 + '%'">|</div>-->
+						</div>
+					</div>
+					<!-- <div class="progress-text">tu progreso</div> -->
+					<div class="progress-number" [style.left]="progress + '%'">{{progress}}%</div>
+				</div>
+			</ion-col>
+			<ion-col col-12 text-left class="cube-padding">	
+				<!--cube-menu -->
+				<ion-grid>
+					<ion-row>
+						<ion-col col-4 text-center class="cube cube-top">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Presentation.png">
+								<p>Presentación</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-top_bottom_midle cube-top">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Home.png">
+								<p>Home</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-top">
+							<div class="recuadro" align="center" text-center>
+								<img id="places_icon" src="./assets/images/Location.png">
+								<p>Lugares</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube_">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Comment.png">
+								<p>Chat</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-top_bottom_midle">
+							<div class="recuadro" id="recu_centro" align="center" text-center>
+								<img src="./assets/images/Users.png">
+								<p>Amigos</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube_">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Calendar.png">
+								<p>Calendario</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-bottom">
+							<div class="recuadro" align="center" text-center>
+								<img id="downl_icon" src="./assets/images/Donload.png">
+								<p>Descargas</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-top_bottom_midle cube-bottom">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Mail.png">
+								<p>Correo</p>
+							</div>
+						</ion-col>
+						<ion-col col-4 text-center class="cube cube-bottom">
+							<div class="recuadro" align="center" text-center>
+								<img src="./assets/images/Picture.png">
+								<p>Galeria</p>
+							</div>
+						</ion-col>
+
+					</ion-row>
+				</ion-grid>
+				<!--End cube-menu -->
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+	<!--End photo-->
+</ion-content>

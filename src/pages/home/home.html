@@ -1,0 +1,33 @@
+<ion-header no-borde>
+  <ion-navbar color="orange">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Productos</ion-title>
+  </ion-navbar>
+  <ion-toolbar class="toolbar_custom">
+    <ion-searchbar
+    [(ngModel)]="myInput"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="getItems($event)"
+    (ionCancel)="onCancel($event)"
+    id="serarch_custom"
+    placeholder ="Buscar">
+  </ion-searchbar>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list class="lista-img">
+    <ion-item *ngFor="let item of products">
+      <ion-thumbnail item-start>
+        <div class="recuadro-img">
+          <img src="{{item.image}}">
+        </div>
+      </ion-thumbnail>
+      <h2>{{item.title}}</h2>
+      <p>${{item.price}}</p>
+      <button ion-button clear item-end (click)="viewDetails($event,item.id)"><img width="55%" src="./assets/images/Rounded_Rectangle10_2.png"></button>
+    </ion-item>
+  </ion-list>
+</ion-content>

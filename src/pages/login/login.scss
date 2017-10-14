@@ -1,0 +1,35 @@
+page-login {
+	.scroll-content {
+		overflow-y: hidden !important;
+	}
+	.middle-div{
+		bottom: 2%;
+	    position: absolute;
+	}
+	.form_custom {
+		width: 100%;
+    	text-align: center;
+		max-width: inherit;
+		color: $text_gray;
+	}
+	.input_custom .text-input {
+    	text-align: center;
+		color: $text_gray;
+	}
+	.texto_custom {
+		color: $text_gray;
+	}
+	#lada {
+		border-right: 1px solid $gris;
+		margin: inherit;
+		height: 100%;
+		padding: 12px 7px 12px 0px;
+	}
+	.item_custom {
+		padding-left: 0px;
+	}
+	.list_custom > .item-block:first-child {
+    border-top: 0.55px solid transparent;
+}
+
+}

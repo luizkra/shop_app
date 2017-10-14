@@ -1,0 +1,43 @@
+page-home {
+	#serarch_custom .searchbar-search-icon {
+    	right: 9px;
+    	left: inherit;
+    }
+	#serarch_custom .searchbar-clear-icon {
+	    right: inherit;	    
+    	left: 0px;
+    }
+    .toolbar_custom .toolbar-background {
+    	background: #fff;
+    	border-color: #fff !important;
+	}
+	.lista-img .input-wrapper{
+		border-right: 0.55px solid $gris;
+	}
+	.lista-img .item-button{
+		left: 5px;
+		height: 25px;
+		border: 1px solid rgb(177, 177, 177);
+		border-radius: 50%;
+	}
+	.lista-img .item-button:hover, .lista-img .item-button:focus, .lista-img .item-button:active{
+		border: 1px solid $backgroun-orange;
+	}
+	.lista-img .item-button:hover, .lista-img .item-button:active, .lista-img .item-button:focus{
+		background-color: $backgroun-orange;
+	}
+	.recuadro-img{
+	    border: 2px solid $gris;
+	}
+	.recuadro-img img{
+	    padding: 5px;
+	}
+	.lista-img .item.item-block {
+		border-top: 1px solid $gris;
+	}
+	.lista-img .item.item-block .item-inner {
+		    border-bottom: none;
+	}
+
+
+}

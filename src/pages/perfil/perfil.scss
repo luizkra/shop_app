@@ -1,0 +1,117 @@
+page-perfil {
+	.scroll-content {
+		overflow-y: hidden !important;
+	}
+	
+	.avatar-user {
+		background-color: #fff;
+		border-radius: 50%;
+	    width: 150px;
+	    height: 150px;
+    	margin: auto;
+	}
+	.avatar-user img {
+		width: 100%;
+    	padding: 30px 40px;
+	}
+	.avatar-section  h4 {
+		color: $text_gray;
+	}
+	.avatar-section {
+		background-color: $gris;
+		padding-top: 16px !important;
+		padding-bottom: 16px !important;
+	}
+	.progress-div {
+		width: 70%;
+    	margin: auto;
+	}
+	.progress-outer {
+		width: 96%;
+		height: 6px;
+		margin: 0px 2%;
+		padding: 0px;
+		text-align: center;
+		background-color: #fff;
+		border: 0px solid transparent;
+		color: #fff;
+		border-radius: 20px;
+    }
+ 
+    .progress-inner {
+	    min-width: 15%;
+	    height: 100%;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    padding: 0px;
+	    border-radius: 20px;
+	    background-color: #8b8b8b;
+    }
+    .progress-number {
+	    position: relative;
+	    margin-left: 5px;
+	    text-align: left;
+	    font-size: 10px;
+	    display: table;
+    }
+    .progress-text {
+	    position: relative;
+	    margin-left: 0px;
+	    text-align: left;	    
+    	color: #a8a8a9;
+    	width: 80px;
+    	display: inline-block;
+    	float: left;
+    }
+    .linea {
+	    position: absolute;
+	    top: initial;
+	    /* left: 25%; */
+	    bottom: 20px;
+	    z-index: 100;
+	    font-size: 18px;
+	    color: #8b8b8b;
+    }
+    .cube-padding {
+    	padding: 20px !important;
+    }
+    .cube {
+    	max-height: 102px;
+    }
+    .cube p {
+    	margin-bottom: 0px;
+    	margin-top: 5px;
+    	font-size: 12px;
+    	color: $gris;
+    }
+    .cube-top {
+    	border-bottom: 1px solid $gris;
+    }
+    .cube-bottom {
+    	border-top: 1px solid $gris;
+    }
+    .cube-middle {
+    	border: 1px solid $gris;
+    }
+    .cube-top_bottom_midle {
+    	border-left: 1px solid $gris;
+    	border-right: 1px solid $gris;
+    }
+    .cube img {
+    	width: 30%;
+    	height: auto;
+    }
+    #places_icon, #downl_icon {
+    	width: 25%;
+    }
+    .recuadro {
+    	padding-top: 5px !important;
+    }
+    .btn_msj .button-inner {
+    	width: 20px;
+    }
+    #recu_centro{
+    	padding-top: 10px !important;
+    }
+
+}

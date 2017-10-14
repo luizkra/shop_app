@@ -1,0 +1,64 @@
+page-details {
+	.slider-img {
+		background-color: rgba(197, 197, 197, 0.6);
+		max-height:250px;
+	}
+	.swiper-pagination-bullet-active {
+	    background: $backgroun-orange;
+	}
+	.segment .segment-button {
+    	color: #fff;
+	}
+	.segment .segment-button:hover, .segment .segment-button:focus {
+    	background-color: #e88e6a !important;
+	}
+
+    .btn_search .button-inner {
+    	width: 20px;
+    }
+    .img_slider {
+    	width: 150px;
+    	height: 150px;
+    }	
+    .toolbar-background-md {
+	    border-color: $backgroun-orange;
+	    background: $backgroun-orange;
+	}
+	.segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
+    	border-color: #e88e6a;
+    	opacity: 1;
+	}
+	.quanty_text, .size_text {
+		font-size: 8px;
+    	display: inline-block;
+	    position: relative;
+	    left: 6px;
+	    float: left;
+	    font-weight: 100;
+	}
+	.quanty_num, .size_num {
+		position: relative;
+	    top: 0px;
+	    display: inline-block;
+	    right: 1px;
+	    font-size: 19px;
+	}
+	#arrow-up{
+		width: 13px;
+		padding-bottom: 3px;
+		padding-top: 3px;
+	}
+	.add_text {
+		display: inline-block;
+	    position: relative;
+	    left: 6px;
+	    float: left;
+	}
+	.add_icon {
+		position: relative;
+	    top: 0px;
+	    display: inline-block;
+	    right: 1px;
+	}	
+
+}
