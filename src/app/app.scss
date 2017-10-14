@@ -17,7 +17,7 @@
 
 .text-close {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 100;
     color: #fff;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .scroll-content {
-	overflow-y: auto !important;
+	overflow-y: hidden !important;
 }
 .picker-md .picker-button, .picker-md .picker-button.activated, .picker-ios .picker-button, .picker-ios .picker-button.activated{
 	color: $backgroun-orange;
@@ -36,4 +36,17 @@
 }*/
 .picker-md .picker-prefix, .picker-md .picker-suffix, .picker-md .picker-opt.picker-opt-selected {
 	color: $backgroun-orange;
+}
+
+.focus-outline button:focus, .focus-outline [ion-button]:focus {
+	border-color: rgba(233, 128, 86, 0.69);
+	outline: 2px solid rgba(233, 128, 86, 0.69);
+	-webkit-box-shadow: 0 0 8px 1px rgba(233, 128, 86, 0.69);
+	box-shadow: 0 0 8px 1px rgba(233, 128, 86, 0.69);
+}
+.footer .footer-md {
+	height: 50px;
+}
+.toolbar-md {
+    max-height: 60px;
 }

@@ -19,7 +19,7 @@
 			<ion-col col-12>
 				<ion-list class="list_custom">
 					<ion-item class="item_custom">
-						<ion-input class="input_custom" type="text" placeholder="Nombre"></ion-input>
+						<ion-input class="input_custom" type="text" placeholder="Nombre" max="10"></ion-input>
 					</ion-item>
 					<ion-item class="item_custom"><ion-select class="form_custom" [(ngModel)]="city" placeholder="Ciudad">
 						<ion-option value="1">Puebla</ion-option>
@@ -29,7 +29,7 @@
 					</ion-select>
 				</ion-item>
 				<ion-item class="item_custom">
-					<ion-label color="gris_t" id="lada">+044</ion-label><ion-input class="input_custom" type="tel" placeholder="Número telefónico"></ion-input>
+					<ion-label color="gris_t" id="lada">+044</ion-label><ion-input class="input_custom" type="tel" max="10" placeholder="Número telefónico"></ion-input>
 				</ion-item>
 			</ion-list>				
 		</ion-col>

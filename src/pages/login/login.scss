@@ -20,7 +20,7 @@ page-login {
 		color: $text_gray;
 	}
 	#lada {
-		border-right: 1px solid $gris;
+		border-right: $border_height solid $color_hight_trasn;
 		margin: inherit;
 		height: 100%;
 		padding: 12px 7px 12px 0px;
@@ -29,7 +29,13 @@ page-login {
 		padding-left: 0px;
 	}
 	.list_custom > .item-block:first-child {
-    border-top: 0.55px solid transparent;
-}
+    	border-top: $border_height solid transparent;
+	}
+	.list-ios .item-block .item-inner, .list-md .item-block .item-inner {
+	 	border-bottom: $border_height solid $color_hight_trasn;
+	}
+	.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block, .list-md > .item-block:last-child, .list-md > .item-wrapper:last-child .item-block {
+	 	border-bottom: $border_height solid $color_hight_trasn;
+	}
 
 }

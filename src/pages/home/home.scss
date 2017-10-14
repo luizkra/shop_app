@@ -1,4 +1,7 @@
 page-home {
+	.scroll-content {
+		overflow-y: auto !important;
+	}
 	#serarch_custom .searchbar-search-icon {
     	right: 9px;
     	left: inherit;
@@ -12,16 +15,16 @@ page-home {
     	border-color: #fff !important;
 	}
 	.lista-img .input-wrapper{
-		border-right: 0.55px solid $gris;
+		border-right: $border_height solid $gris;
 	}
 	.lista-img .item-button{
 		left: 5px;
 		height: 25px;
-		border: 1px solid rgb(177, 177, 177);
+		border: $border_height solid rgb(177, 177, 177);
 		border-radius: 50%;
 	}
 	.lista-img .item-button:hover, .lista-img .item-button:focus, .lista-img .item-button:active{
-		border: 1px solid $backgroun-orange;
+		border: $border_height solid $backgroun-orange;
 	}
 	.lista-img .item-button:hover, .lista-img .item-button:active, .lista-img .item-button:focus{
 		background-color: $backgroun-orange;
@@ -33,10 +36,21 @@ page-home {
 	    padding: 5px;
 	}
 	.lista-img .item.item-block {
-		border-top: 1px solid $gris;
+		border-top: $border_height solid $gris;
 	}
 	.lista-img .item.item-block .item-inner {
 		    border-bottom: none;
+	}
+	.lista-img .item-md ion-thumbnail{
+		min-width: 56px;
+		min-height: 56px;
+	}
+	.lista-img .item-md ion-thumbnail ion-img, .lista-img .item-md ion-thumbnail img {
+		width: 56px;
+		height: 56px;
+	}
+	.list-md > .item-block:last-child, .list-md > .item-wrapper:last-child .item-block {
+    	border-bottom: $border_height solid #c8c7cc;
 	}
 
 

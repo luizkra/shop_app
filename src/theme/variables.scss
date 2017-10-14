@@ -60,6 +60,8 @@ $searchbar-ios-input-text-color: #6e6e6e;
 $searchbar-ios-border-color: #fff;
 
 $toolbar-ios-button-border-radius: 0px;
+$toolbar-ios-title-font-weight: 100;
+$toolbar-ios-button-strong-font-weight: 100;
 $segment-button-ios-background-color: #e98056;
 $segment-button-ios-border-width: 0px;
 $segment-button-ios-toolbar-button-max-width: 100%;
@@ -72,6 +74,7 @@ $alert-ios-button-text-color: #e98056;
 $alert-ios-radio-label-text-color-checked: #e98056;
 $alert-ios-message-text-color: #625f5f;
 $alert-ios-radio-label-text-color: #625f5f;
+$button-ios-strong-font-weight: 100;
 
 
 
@@ -92,10 +95,11 @@ $searchbar-md-border-color: #fff;
 $searchbar-md-input-box-shadow: none;
 
 $toolbar-md-button-border-radius: 0px;
+$toolbar-md-button-strong-font-weight: 100;
 $segment-button-md-background-color: #e98056;
 $segment-button-md-border-width: 0px;
 $segment-button-md-toolbar-button-max-width: 100%;
-$segment-button-md-height: 100%;
+$segment-button-md-height: auto;
 $segment-button-md-toolbar-button-height: 100%;
 $segment-button-md-background-color-activated: #ec642e;
 $segment-button-md-text-color: #fff;
@@ -104,6 +108,8 @@ $alert-md-button-text-color: #e98056;
 $alert-md-radio-label-text-color-checked: #e98056;
 $alert-md-message-text-color: #625f5f;
 $alert-md-radio-label-text-color: #625f5f;
+$button-md-strong-font-weight: 100;
+$button-md-outline-border-color: rgba(233, 128, 86, 0.69);
 
 
 
@@ -123,10 +129,14 @@ $alert-md-radio-label-text-color: #625f5f;
 // default are overridden.
 
 $backgroun-orange: #e98056;
+$backgroun-orange-secondary: rgba(233, 128, 86, 0.69);
 $gris: #c8c7cc;
 $text-input-highlight-color-valid: #e98056;
 $img-placeholder-background: trasnparent;
 $text_gray: #625f5f;
+$border_height: 1px;
+//$color_hight_trasn: rgba(200, 199, 204, 0.45);
+$color_hight_trasn: #dedede;
 
 @import "ionic.theme.default";
 

@@ -1,4 +1,7 @@
 page-details {
+	.scroll-content {
+		overflow-y: auto !important;
+	}
 	.slider-img {
 		background-color: rgba(197, 197, 197, 0.6);
 		max-height:250px;
@@ -41,6 +44,7 @@ page-details {
 	    top: 0px;
 	    display: inline-block;
 	    right: 1px;
+	    font-weight: 100;
 	    font-size: 19px;
 	}
 	#arrow-up{

@@ -85,17 +85,17 @@ page-perfil {
     	color: $gris;
     }
     .cube-top {
-    	border-bottom: 1px solid $gris;
+    	border-bottom: $border_height solid $gris;
     }
     .cube-bottom {
-    	border-top: 1px solid $gris;
+    	border-top: $border_height solid $gris;
     }
     .cube-middle {
-    	border: 1px solid $gris;
+    	border: $border_height solid $gris;
     }
     .cube-top_bottom_midle {
-    	border-left: 1px solid $gris;
-    	border-right: 1px solid $gris;
+    	border-left: $border_height solid $gris;
+    	border-right: $border_height solid $gris;
     }
     .cube img {
     	width: 30%;
@@ -112,6 +112,12 @@ page-perfil {
     }
     #recu_centro{
     	padding-top: 10px !important;
+    }
+    .cube:hover, .cube:focus, .cube:active {
+    	background-color: $backgroun-orange-secondary;
+    }
+    .cube:hover >.cube p, .cube:focus >.cube p, .cube:active >.cube p {
+    	color: #fff;
     }
 
 }
